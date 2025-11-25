@@ -786,6 +786,7 @@ int admin_Menu(sqlite3 *db, user login)
             {
                 return rc;
             }
+            return SQLITE_OK;
             break;
 
         case 'F':
@@ -794,6 +795,7 @@ int admin_Menu(sqlite3 *db, user login)
             {
                 return rc;
             }
+            return SQLITE_OK;
             break;
 
         case 'G':
@@ -802,6 +804,7 @@ int admin_Menu(sqlite3 *db, user login)
             {
                 return rc;
             }
+            return SQLITE_OK;
             break;
         case 'H':
             return SQLITE_OK;
